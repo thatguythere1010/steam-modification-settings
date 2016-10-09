@@ -9,8 +9,8 @@ function drag(ev) {
 function drop(ev) {
   ev.preventDefault();
   var data = ev.dataTransfer.getData("text");
-  var id = $("steamModDrop").text();
-  var text = $(id).text();
+  var id = document.getElementById().("steamModDrop").text();
+  var text = document.getElementById(id).text();
   var colour = prompt("Please enter a colour (green, yellow, red)");
   var valid = false;
   switch (colour) {
@@ -32,7 +32,8 @@ function drop(ev) {
   }
 
   if (valid) {
-    $("#steamModDropButton").html(text + "," + colour).click();
+    document.getElementById("#steamModDropButton").innerHTML = text + "," + colour;
+    document.getElementById("#steamModDropButton").click();
   } else {
     alert("Invalid Colour!");
   }
