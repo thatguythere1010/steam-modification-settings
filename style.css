@@ -12,6 +12,11 @@ body {
   padding: 0;
 }
 
+.arrayList {
+    margin: auto;
+    padding: 10px;
+}
+
 .arrayRed {
   width: 33%;
   height: 100%;
