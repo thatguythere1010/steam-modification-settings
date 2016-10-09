@@ -20,21 +20,18 @@ body {
 }
 
 .arrayRed {
-  width: 33%;
   height: 100%;
   color: #ff0000;
 }
 .arrayYellow {
-  width: 33%;
   height: 100%;
   color: #ffff00;
-  padding-right: 50%;
+  padding-right: 45%;
 }
 .arrayGreen {
-  width: 33%;
   height: 100%;
   float: left;
-  padding-right: 50%;
+  padding-right: 45%;
   color: #00ff00;
 }
 
