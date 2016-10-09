@@ -11,5 +11,3 @@ function drop(ev) {
   var data = ev.dataTransfer.getData("text");
   alert(document.getElementById(data).innerHTML);
 }
-
-console.log("loaded");
