@@ -25,11 +25,13 @@ body {
 }
 .arrayYellow {
   height: 100%;
+  width: 45%;
   color: #ffff00;
   padding-right: 45%;
 }
 .arrayGreen {
   height: 100%;
+  width: 45%;
   float: left;
   padding-right: 45%;
   color: #00ff00;
