@@ -19,9 +19,8 @@ body {
 }
 
 .arrayRed {
-  width: 33%;
+  margin-left: 66%;
   height: 100%;
-  float: left;
   color: #b30000;
 }
 .arrayYellow {
@@ -30,8 +29,9 @@ body {
   color: #c5c500;
 }
 .arrayGreen {
-  margin-left: 33%;
+  width: 33%;
   height: 100%;
+  float: left;
   color: #00b300;
 }
 
