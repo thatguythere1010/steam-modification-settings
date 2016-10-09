@@ -9,8 +9,8 @@ function drag(ev) {
 function drop(ev) {
   ev.preventDefault();
   var data = ev.dataTransfer.getData("text");
-  var id = document.getElementById("steamModDrop").text();
-  var text = document.getElementById(id).text();
+  var id = document.getElementById("steamModDrop").innerHTML;
+  var text = document.getElementById(id).innerHTML;
   var colour = prompt("Please enter a colour (green, yellow, red)");
   var valid = false;
   switch (colour) {
