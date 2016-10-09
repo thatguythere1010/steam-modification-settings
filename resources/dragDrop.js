@@ -10,4 +10,5 @@ function drop(ev) {
   ev.preventDefault();
   var data = ev.dataTransfer.getData("text");
   document.getElementById("steamModDrop").innerHTML = data;
+  document.getElementById("steamModDropButton").click();
 }
