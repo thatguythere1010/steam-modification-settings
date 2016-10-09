@@ -20,12 +20,14 @@ body {
 }
 
 .arrayRed {
+  width: 33%;
   height: 100%;
-  color: #b30000;
+  color: #ff0000;
 }
 .arrayYellow {
   width: 33%;
   height: 100%;
+  color: #ffff00;
   padding-right: 50%;
 }
 .arrayGreen {
@@ -33,7 +35,7 @@ body {
   height: 100%;
   float: left;
   padding-right: 50%;
-  color: #00b300;
+  color: #00ff00;
 }
 
 .button-alt {
