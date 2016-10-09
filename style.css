@@ -22,16 +22,22 @@ body {
   float: right;
   width: 33%;
   color: #ff0000;
+  margin: 0px;
+  padding: 0px;
 }
 .arrayYellow {
   display: inline-block; 
   width: 33%;
   color: #ffff00;
+  margin: 0px;
+  padding: 0px;
 }
 .arrayGreen {
   float: left; 
   width: 33%;
   color: #00ff00;
+  margin: 0px;
+  padding: 0px;
 }
 
 .button-alt {
