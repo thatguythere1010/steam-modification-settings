@@ -12,6 +12,23 @@ body {
   padding: 0;
 }
 
+.arrayRed {
+  width: 3%;
+  height: 100%;
+  float: left;
+  color: #b30000;
+}
+.arrayYellow {
+  margin-left: 33%;
+  height: 100%;
+  color: #c5c500;
+}
+.arrayGreen {
+  margin-left: 33%;
+  height: 100%;
+  color: #00b300;
+}
+
 .button-alt {
   font-size: 16px;
   border: 2px solid #fff;
