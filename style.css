@@ -16,25 +16,21 @@ body {
   margin: 0px;
   padding: 0px;
   width: 100%;
-  height: 50%;
 }
 
 .arrayRed {
-  height: 100%;
-  width: 10%;
+  float: right;
+  width: 33%;
   color: #ff0000;
 }
 .arrayYellow {
-  height: 100%;
-  width: 45%;
+  display: inline-block; 
+  width: 33%;
   color: #ffff00;
-  padding-right: 45%;
 }
 .arrayGreen {
-  height: 100%;
-  width: 45%;
-  float: left;
-  padding-right: 45%;
+  float: left; 
+  width: 33%;
   color: #00ff00;
 }
 
